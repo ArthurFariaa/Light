@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h2>How to turn on a Light</h2>
+        <p>With the power of JavaScript we can turn it on</p>
+        <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+            <button class="button1" onclick="turnOnLight()"> turn on the light </button>
+
+            <img id="myImage" src="off.png" style="width:300px">
+
+            <button class="button2" onclick="turnOffLight()"> Turn off the light</button>
+
+            <script>
+                function turnOnLight() {
+                    document.getElementById('myImage').src = 'on.png';
+                }
+    
+                function turnOffLight() {
+                    document.getElementById('myImage').src = 'off.png';
+                }
+            </script>
+    </body>
+</html>
