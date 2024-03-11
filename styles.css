@@ -1,16 +1,16 @@
-p {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: rgb(0, 0, 123);
-    background-color: #ffffff;
-}
-
-h2 {
+h2 { /* "How to turn on a Light" */
     font-size: 40px;
     color: rgb(0, 0, 121);
 }
 
-.button1 {
+p { /* "With the power of JavaScript we can turn it on" */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 123);
+    background-color: #ffffff;
+} 
+
+.button1 { /*turn on the light*/
     background-color: green;
     color: white;
     padding: 10px 20px;
@@ -18,7 +18,7 @@ h2 {
     border-radius: 5px;
 }
 
-.button2 {
+.button2 { /*turn off the light*/
     background-color: rgb(183, 60, 44);
     color: white;
     padding: 10px 20px;
